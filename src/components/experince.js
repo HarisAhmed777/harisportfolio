@@ -2,7 +2,7 @@ import frontend from '../components/images/frontend.png';
 import backend from '../components/images/backend.png';
 import design from '../components/images/design.png';
 import cloud from '../components/images/cloud.png';
-import weatherapp from '../components/images/weatherapp.png';
+import weatherapp from '../components/images/Weatherapp.png';
 import starholidays from '../components/images/starholidays.png';
 import calci from '../components/images/calci.png';
 import admin from '../components/images/HolidayAdmin.png';
