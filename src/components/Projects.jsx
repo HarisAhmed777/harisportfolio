@@ -13,7 +13,6 @@ const ProjectCard = ({
     tags,
     image,
     alt,
-    source_code_link,
     live_link,
   }) => {
     const {isLight} = useContext(ThemeContext);
@@ -25,7 +24,7 @@ const ProjectCard = ({
             <img
               src={image}
               alt={alt}
-              className="h-full w-full rounded-2xl object-cover"
+              className="h-full w-full  object-cover"
             />
   
             <div className="card-img_hover absolute inset-0 m-3 flex justify-end">
@@ -43,9 +42,9 @@ const ProjectCard = ({
             </div>
           </div>
   
-          <div className="mt-5">
-            <h3 className="text-[24px] font-bold text-white">{name}</h3>
-            <p className="mt-2 text-[14px] text-secondary">{description}</p>
+          <div className={`mt-5 ${isLight?'lightmode':'darkmode'}`} >
+            <h3 className="text-[24px] font-bold">{name}</h3>
+            <p className="mt-2 text-[14px] ">{description}</p>
           </div>
   
           <div className="mt-4 flex flex-wrap gap-2">

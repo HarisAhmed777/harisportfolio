@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import gsap from 'gsap';
 import { useGSAP } from "@gsap/react";
 // import {Experience} from '../components/Works'
-
+import {Contact} from '../components/Contact';
 import Arrow from '../components/images/arrow.svg?react';
 import Arrowblack from '../components/images/arrowblack.svg?react';
 import Linkedin from '../components/images/linkedin.svg?react';
@@ -54,8 +54,12 @@ function Home() {
       <ul className='mb-20 space-y-5 '>
           <a href="https://www.linkedin.com/in/haris-ahmed-s-a42536215/" target='Blank'><li className='hover:scale-150 ease-in-out duration-200'><Linkedin /></li></a>
           <li className='hover:scale-150 ease-in-out duration-200 cursor-pointer'><Instagram /></li>
-          <li className='hover:scale-150 ease-in-out duration-200 cursor-pointer'><Mail /></li>
-          <li className='hover:scale-150 ease-in-out duration-200 cursor-pointer'><X /></li>
+          <li className='hover:scale-150 ease-in-out duration-200 cursor-pointer'>
+          <a href="mailto:mern.dev.harisahmed@gmail.com" target='blank'>
+            
+            <Mail /></a>
+            </li>
+          <li className='hover:scale-150 ease-in-out duration-200 cursor-pointer'><a href="https://x.com/Harisahmed_Dev" target='blank'><X /></a></li>
         </ul>
       </div>
     </div>
@@ -64,6 +68,7 @@ function Home() {
     <Skiils/>
     <Experience/>
     <Works/>
+    <Contact/>
     </>
 
   )

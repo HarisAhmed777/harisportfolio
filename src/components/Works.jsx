@@ -34,7 +34,7 @@ const ExperienceCard = ({ experience }) => {
         </div>
       }
     >
-      <div>
+      <div >
         <h3 className="text-[24px] font-bold text-white">{experience.title}</h3>
         <p
           className="text-[16px] font-semibold text-secondary"
@@ -44,7 +44,7 @@ const ExperienceCard = ({ experience }) => {
         </p>
       </div>
 
-      <ul className="ml-5 mt-5 list-disc space-y-2">
+      <ul className="ml-5 mt-5 list-disc space-y-2 ">
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
@@ -63,12 +63,14 @@ export const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} ${isLight?'lightmode':'darkmode'} text-center`}>
+        {/* <div className="pt-10"> */}
+        <p className={`${styles.sectionSubText} ${isLight?'lightmode':'darkmode'} text-center pt-20`}>
           What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} ${isLight?'lightmode':'darkmode'} text-center`}>
           Work Experience.
         </h2>
+        {/* </div> */}
       </motion.div>
 
       <motion.div variants={textVariant()} className={` pt-20 flex flex-col ${isLight?'lightmode':'darkmode'}`}>
