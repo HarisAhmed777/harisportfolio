@@ -3,7 +3,7 @@ import backend from '../components/images/backend.png';
 import design from '../components/images/design.png';
 import cloud from '../components/images/cloud.png';
 import weatherapp from '../components/images/Weatherapp.png';
-import starholidays from '../components/images/starholidays.png';
+import starholidays from '../components/images/Starholidays.png';
 import calci from '../components/images/Calci.png';
 import admin from '../components/images/HolidayAdmin.png';
 import OldPortfolio from '../components/images/OldPortfolio.png';
