@@ -114,7 +114,7 @@ export const Contact = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1KB3IUAseB0_cNzSvUCnudQfPtANZRgDg/view"
+            href="https://drive.google.com/file/d/1IToI8cbuhu5IXA_HjQ58fweNMxgV487-/view?usp=sharing"
           >
             <Button variant="outlined" endIcon={<ArrowOutward />}>
               Resume
